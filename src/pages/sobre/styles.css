@@ -1,0 +1,28 @@
+.sobre-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.sobre-page > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sobre-page img {
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.sobre-page h1, .sobre-page h2, .sobre-page h3, .sobre-page p {
+  margin: 10px 0;
+}
+
+.sobre-page a {
+  color: blue;
+  text-decoration: none;
+  margin-top: 20px;
+}
